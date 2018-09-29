@@ -101,11 +101,7 @@ class App extends Component {
           handleOtherChange={this.handleOtherChange}
         />
 
-        {/* <input
-          className="input"
-          type="text"
-          placeholder="Other Info"
-          onChange={this.handleOtherChange}></input> */}
+
         <button
           className="button"
           onClick={this.handleUpdate}>Update Interanl Info</button>
